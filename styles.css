@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+.jumbotron-fluid {
+  background: #EDF2F4;
+  padding: 20px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+p {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 100;
+}
+h1 ~ p {
+  margin-bottom: 0;
+}
+a {
+  color: #2B2D42;
+}
+a:hover {
+  text-decoration: none;
+  color: #2B2D42;
+}
+.title {
+  font-weight: 700;
+  text-align: center;
+}
+.link-title {
+  font-weight: 700;
+  text-align: left;
+}
+.link-text {
+  text-align: left;
+  white-space: pre-wrap;
+}
+.hide {
+  display: none;
+}
+.btn-dark {
+  color: #c18934;
+  background: #2B2D42;
+}
+#search-results {
+  margin-top: 20px;
+}
